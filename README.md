@@ -25,9 +25,9 @@ the model is built with a dense neural network architecture and incorporates dro
 
 ## Training and Testing
 - **Data Splitting:** Training, testing using `train_test_split()` from `sklearn.model_selection`.  
-- **Model Training:** Optimizer: Adam for efficient gradient-based optimization.-
+- **Model Training:** Optimizer: Adam for efficient gradient-based optimization, validation set of 0.1
 - **Prediction:** Model predicts the wine type based on input features.
-
+- **loss:** sparse categorical entropy function
 ---
 
 ## Visualization
